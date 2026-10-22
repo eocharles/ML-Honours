@@ -1,0 +1,103 @@
+{
+  "base_seed": 20260713,
+  "candidate_pool": {
+    "candidates_per_family": 1,
+    "model_families": [
+      "random_forest",
+      "gradient_boosting"
+    ],
+    "seed": 4817
+  },
+  "experiment_name": "smoke",
+  "final_stability": {
+    "background_rows": 4,
+    "evaluation_rows": 8,
+    "perturbations": 2,
+    "seed_offset": 50000,
+    "shap_permutations": 2,
+    "top_k": 3,
+    "train_fraction": 0.8
+  },
+  "inner_folds": 2,
+  "outer_folds": 2,
+  "output": {
+    "fail_fast": true,
+    "save_attribution_vectors": false,
+    "save_candidate_results": true
+  },
+  "reference_fraction": 0.2,
+  "search_space": {
+    "models": {
+      "gradient_boosting": {
+        "learning_rate": [
+          0.1
+        ],
+        "max_depth": [
+          2
+        ],
+        "min_samples_leaf": [
+          1
+        ],
+        "n_estimators": [
+          20,
+          40
+        ]
+      },
+      "mlp": {
+        "alpha": [
+          0.001
+        ],
+        "layers": [
+          1
+        ],
+        "learning_rate_init": [
+          0.001
+        ],
+        "max_iter": 40,
+        "width": [
+          16,
+          32
+        ]
+      },
+      "random_forest": {
+        "max_depth": [
+          4
+        ],
+        "max_features": [
+          "sqrt"
+        ],
+        "min_samples_leaf": [
+          1
+        ],
+        "n_estimators": [
+          20,
+          40
+        ]
+      }
+    },
+    "preprocessing": {
+      "numeric_imputers": [
+        "median"
+      ],
+      "scalers": [
+        "standard"
+      ]
+    }
+  },
+  "selection_stability": {
+    "background_rows": 4,
+    "evaluation_rows": 8,
+    "perturbations": 2,
+    "seed_offset": 10000,
+    "shap_permutations": 2,
+    "top_k": 3,
+    "train_fraction": 0.8
+  },
+  "selectors": {
+    "include_knee_point": true,
+    "relative_tolerances": [
+      0.05
+    ],
+    "use_one_standard_error_floor": false
+  }
+}
