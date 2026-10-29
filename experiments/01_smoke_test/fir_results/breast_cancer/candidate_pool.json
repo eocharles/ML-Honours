@@ -1,0 +1,30 @@
+[
+  {
+    "candidate_id": "588f99a921dd",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 4,
+      "max_features": "log2",
+      "min_samples_leaf": 4,
+      "n_estimators": 200
+    },
+    "preprocessing": {
+      "numeric_imputer": "mean",
+      "scaler": "robust"
+    }
+  },
+  {
+    "candidate_id": "9ac13b2df10c",
+    "family": "gradient_boosting",
+    "model": {
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "min_samples_leaf": 4,
+      "n_estimators": 200
+    },
+    "preprocessing": {
+      "numeric_imputer": "mean",
+      "scaler": "robust"
+    }
+  }
+]

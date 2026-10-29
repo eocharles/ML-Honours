@@ -86,3 +86,18 @@ Yes. All three selectors (risk\_only, stable\_5pct and knee) chose Gradient Boos
 
 \- Should my ML-Honours repo be public or private?
 
+
+## Re-run on Fir (October 29, 2026)
+
+Ran the same command on the Fir cluster (compute node, Python 3.12, scikit-learn 1.8.0). Results are in `fir_results/`.
+
+| | Laptop | Fir |
+|---|---|---|
+| RF risk_mean | 0.046845 | 0.046845 |
+| RF magnitude_disagreement | 0.109106 | 0.109106 |
+| GB risk_mean | 0.044424 | 0.044201 |
+| GB magnitude_disagreement | 0.468174 | 0.459479 |
+
+Random Forest results were identical, but Gradient Boosting changed slightly. My hypothesis is the different scikit-learn version (1.9.1 on my laptop vs 1.8.0 on Fir). The conclusions stayed the same: all three selectors still chose GB, and RF still fell just outside the 5% threshold (0.046845 vs 0.046411).
+
+Lesson: record exact package versions with every experiment.
