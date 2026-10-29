@@ -1,6 +1,6 @@
 [
   {
-    "dataset": "breast_cancer",
+    "dataset": "diabetes",
     "status": "ok"
   }
 ]

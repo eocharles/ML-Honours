@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "588f99a921dd",
+    "eligible_candidates": 2,
+    "risk_threshold": 3502.59758313537,
+    "selector": "risk_only"
+  },
+  {
+    "candidate_id": "588f99a921dd",
+    "eligible_candidates": 1,
+    "risk_threshold": 3677.727462292138,
+    "selector": "stable_5pct"
+  },
+  {
+    "candidate_id": "588f99a921dd",
+    "eligible_candidates": 1,
+    "risk_threshold": 3852.857341448907,
+    "selector": "stable_10pct"
+  },
+  {
+    "candidate_id": "588f99a921dd",
+    "eligible_candidates": 1,
+    "risk_threshold": 4203.117099762444,
+    "selector": "stable_20pct"
+  },
+  {
+    "candidate_id": "9ac13b2df10c",
+    "eligible_candidates": 2,
+    "risk_threshold": 4378.246978919213,
+    "selector": "stable_25pct"
+  },
+  {
+    "candidate_id": "588f99a921dd",
+    "eligible_candidates": 2,
+    "risk_threshold": 3502.59758313537,
+    "selector": "knee"
+  }
+]

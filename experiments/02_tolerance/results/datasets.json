@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "diabetes",
+    "name": "diabetes",
+    "source": "sklearn",
+    "task": "regression"
+  },
+  {
+    "dataset": "breast_cancer",
+    "name": "breast_cancer",
+    "source": "sklearn",
+    "task": "classification"
+  }
+]

@@ -1,0 +1,3 @@
+candidate_id,family,risk_mean,risk_se,magnitude_disagreement,rank_agreement,top_k_agreement,raw_mean_standard_deviation,mean_total_attribution,status,error_type,error_message
+588f99a921dd,random_forest,3720.03752108946,380.8197388920271,0.24463771925987113,0.5515151515151515,0.2,1.1927883610719419,45.73200244490433,ok,,
+9ac13b2df10c,gradient_boosting,4222.5537343709375,279.0300279912653,0.21519700337518613,0.6242424242424242,1.0,2.2081439559427865,101.0463686149476,ok,,

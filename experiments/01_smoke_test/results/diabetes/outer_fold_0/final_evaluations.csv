@@ -1,0 +1,4 @@
+dataset,task,outer_fold,selector,candidate_id,risk_threshold,eligible_candidates,outer_test_loss,magnitude_disagreement,rank_agreement,top_k_agreement,raw_mean_standard_deviation,mean_total_attribution,perturbations,family
+diabetes,regression,0,risk_only,588f99a921dd,3720.03752108946,2,3386.0645128159026,0.1961403465836611,0.8303030303030302,0.5,1.2706504641593408,63.69651355976819,2,random_forest
+diabetes,regression,0,stable_5pct,588f99a921dd,3906.039397143933,1,3386.0645128159026,0.1961403465836611,0.8303030303030302,0.5,1.2706504641593408,63.69651355976819,2,random_forest
+diabetes,regression,0,knee,588f99a921dd,3720.03752108946,2,3386.0645128159026,0.1961403465836611,0.8303030303030302,0.5,1.2706504641593408,63.69651355976819,2,random_forest
