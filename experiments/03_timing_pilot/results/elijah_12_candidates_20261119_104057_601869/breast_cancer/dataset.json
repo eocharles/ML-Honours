@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "0",
+    "1"
+  ],
+  "dataset": "breast_cancer",
+  "n_features": 30,
+  "n_rows": 569,
+  "source": "sklearn"
+}
