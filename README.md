@@ -14,7 +14,7 @@ The experiments reuse the model, SHAP, stability and selection code from the sup
 | Phase | Goal | Status | Evidence |
 |---|---|---|---|
 | 1 | Simple candidate-search baseline: define what is optimized and what a candidate contains; reproducible candidate stream | Complete, needs supervisor review | [`phase1/`](phase1) (dataset note, protocol, candidate table), `experiments/01_smoke_test`, `experiments/02_tolerance`, candidate pool and reproducibility check in `experiments/03_timing_pilot` |
-| 2 | Define one complete explanation evaluation and measure its real cost | In progress | `experiments/03_timing_pilot` |
+| 2 | Define one complete explanation evaluation and measure its real cost | In progress | `experiments/03_timing_pilot` (laptop), `experiments/04_fir_timing` (Fir) |
 | 3-7 | Allocation strategies, full audit, stress tests, thesis | Not started | |
 
 ### Phase 1 evidence
@@ -26,8 +26,9 @@ The experiments reuse the model, SHAP, stability and selection code from the sup
 
 ### Phase 2 evidence
 - **[03_timing_pilot](experiments/03_timing_pilot)**: timing of each part of an explanation evaluation (retraining, SHAP, comparison) for RF and GB on breast_cancer. Includes scripts, config, results, report and a README explaining every column.
+- **[04_fir_timing](experiments/04_fir_timing)**: the same timing runs on the Fir cluster (1 core, AMD EPYC 9655), with a laptop vs Fir comparison.
 
 ## Notes
 - All timing values are in **seconds of compute time**, not SHAP values. Stability is measured by `magnitude_disagreement` (lower is more stable).
 - Classification and regression results are kept separate.
-- Pilot runs so far were on a laptop; cluster (Fir) runs are next.
+- Timing runs exist on both a laptop (03) and the Fir cluster (04); compare timings only within one machine.

@@ -1,0 +1,95 @@
+Node: fc30556
+CPU: Model name:                              AMD EPYC 9655 96-Core Processor
+Cores allocated: 1
+Started: Sat Nov 21 18:51:21 MST 2026
+Code commit: 6bb5a1e Add reusable model selection API and upgrade examples
+Results folder: results/elijah_timing_20261121_185229_730478
+Starting selection: random_forest
+  ok | stability training: 0.28s | SHAP: 1.24s | full stability check: 2.38s
+Starting selection: gradient_boosting
+  ok | stability training: 0.34s | SHAP: 0.21s | full stability check: 0.94s
+Starting final: gradient_boosting
+  ok | stability training: 0.40s | SHAP: 0.21s | full stability check: 1.33s
+
+Finished. Timing results: results/elijah_timing_20261121_185229_730478/timings.csv
+Results folder: results/elijah_timing_20261121_185251_991564
+Starting selection: random_forest
+  ok | stability training: 0.29s | SHAP: 1.22s | full stability check: 1.88s
+Starting selection: gradient_boosting
+  ok | stability training: 0.34s | SHAP: 0.20s | full stability check: 0.80s
+Starting final: gradient_boosting
+  ok | stability training: 0.40s | SHAP: 0.21s | full stability check: 1.08s
+
+Finished. Timing results: results/elijah_timing_20261121_185251_991564/timings.csv
+Results folder: results/elijah_timing_20261121_185310_754290
+Starting selection: random_forest
+  ok | stability training: 0.27s | SHAP: 1.13s | full stability check: 1.88s
+Starting selection: gradient_boosting
+  ok | stability training: 0.33s | SHAP: 0.20s | full stability check: 0.76s
+Starting final: gradient_boosting
+  ok | stability training: 0.40s | SHAP: 0.20s | full stability check: 0.81s
+
+Finished. Timing results: results/elijah_timing_20261121_185310_754290/timings.csv
+Results folder: results/elijah_12_candidates_20261121_185327_286177
+Starting selection: random_forest
+  ok | stability training: 0.29s | SHAP: 1.21s | full stability check: 1.64s
+Starting selection: random_forest
+  ok | stability training: 0.56s | SHAP: 2.12s | full stability check: 2.89s
+Starting selection: random_forest
+  ok | stability training: 0.82s | SHAP: 3.00s | full stability check: 4.05s
+Starting selection: random_forest
+  ok | stability training: 0.85s | SHAP: 3.02s | full stability check: 4.13s
+Starting selection: random_forest
+  ok | stability training: 0.55s | SHAP: 2.11s | full stability check: 2.79s
+Starting selection: random_forest
+  ok | stability training: 0.83s | SHAP: 3.02s | full stability check: 4.10s
+Starting selection: gradient_boosting
+  ok | stability training: 0.65s | SHAP: 0.21s | full stability check: 1.08s
+Starting selection: gradient_boosting
+  ok | stability training: 0.64s | SHAP: 0.21s | full stability check: 0.98s
+Starting selection: gradient_boosting
+  ok | stability training: 0.31s | SHAP: 0.19s | full stability check: 0.60s
+Starting selection: gradient_boosting
+  ok | stability training: 1.06s | SHAP: 0.21s | full stability check: 1.41s
+Starting selection: gradient_boosting
+  ok | stability training: 0.42s | SHAP: 0.19s | full stability check: 0.82s
+Starting selection: gradient_boosting
+  ok | stability training: 0.89s | SHAP: 0.21s | full stability check: 1.16s
+Starting final: random_forest
+  ok | stability training: 0.60s | SHAP: 2.17s | full stability check: 4.27s
+Starting final: random_forest
+  ok | stability training: 0.92s | SHAP: 3.05s | full stability check: 4.32s
+
+Finished. Timing results: results/elijah_12_candidates_20261121_185327_286177/timings.csv
+Results folder: results/elijah_12_alternating_20261121_185424_463266
+Starting selection: gradient_boosting
+  ok | stability training: 0.65s | SHAP: 0.21s | full stability check: 0.95s
+Starting selection: random_forest
+  ok | stability training: 0.29s | SHAP: 1.21s | full stability check: 1.61s
+Starting selection: gradient_boosting
+  ok | stability training: 0.65s | SHAP: 0.21s | full stability check: 0.97s
+Starting selection: random_forest
+  ok | stability training: 0.57s | SHAP: 2.13s | full stability check: 2.81s
+Starting selection: gradient_boosting
+  ok | stability training: 0.33s | SHAP: 0.20s | full stability check: 0.59s
+Starting selection: random_forest
+  ok | stability training: 0.83s | SHAP: 3.03s | full stability check: 4.05s
+Starting selection: gradient_boosting
+  ok | stability training: 1.14s | SHAP: 0.22s | full stability check: 1.47s
+Starting selection: random_forest
+  ok | stability training: 0.85s | SHAP: 2.99s | full stability check: 3.91s
+Starting selection: gradient_boosting
+  ok | stability training: 0.41s | SHAP: 0.19s | full stability check: 0.71s
+Starting selection: random_forest
+  ok | stability training: 0.54s | SHAP: 2.07s | full stability check: 2.69s
+Starting selection: gradient_boosting
+  ok | stability training: 0.89s | SHAP: 0.21s | full stability check: 1.20s
+Starting selection: random_forest
+  ok | stability training: 0.82s | SHAP: 3.07s | full stability check: 4.25s
+Starting final: random_forest
+  ok | stability training: 0.60s | SHAP: 2.12s | full stability check: 2.98s
+Starting final: random_forest
+  ok | stability training: 0.91s | SHAP: 3.02s | full stability check: 4.15s
+
+Finished. Timing results: results/elijah_12_alternating_20261121_185424_463266/timings.csv
+Finished: Sat Nov 21 18:55:11 MST 2026
