@@ -1,0 +1,13 @@
+stream_position,candidate_id,family,scaler,imputer,model_params,pool_seed,inner_split_seed,model_seeds,validation_risk_mean,validation_risk_se,fit_seconds_risk,fit_calls_risk
+1,588f99a921dd,random_forest,robust,mean,"{""max_depth"": 4, ""max_features"": ""log2"", ""min_samples_leaf"": 4, ""n_estimators"": 200}",4817,20260717,20261717 20261718,0.04684,0.00351,1.112,2
+2,99c56a33fdd7,random_forest,robust,mean,"{""max_depth"": 12, ""max_features"": ""log2"", ""min_samples_leaf"": 1, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.04063,0.0026,2.359,2
+3,d35d29df0546,random_forest,standard,mean,"{""max_depth"": 16, ""max_features"": ""log2"", ""min_samples_leaf"": 4, ""n_estimators"": 600}",4817,20260717,20261717 20261718,0.04616,0.00319,3.222,2
+4,df617ef7fa25,random_forest,standard,median,"{""max_depth"": 4, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1, ""n_estimators"": 600}",4817,20260717,20261717 20261718,0.04099,0.00258,3.113,2
+5,93c3af789f62,random_forest,standard,median,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 8, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.0506,0.0046,2.315,2
+6,30682ab8a273,random_forest,standard,mean,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 8, ""n_estimators"": 600}",4817,20260717,20261717 20261718,0.04993,0.00388,3.411,2
+7,f3f9adde9a14,gradient_boosting,robust,mean,"{""learning_rate"": 0.02, ""max_depth"": 2, ""min_samples_leaf"": 8, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.04208,0.00316,1.848,2
+8,bcffaa662a54,gradient_boosting,none,mean,"{""learning_rate"": 0.1, ""max_depth"": 2, ""min_samples_leaf"": 4, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.04675,0.0007,1.566,2
+9,b6dac38b793c,gradient_boosting,none,mean,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 8, ""n_estimators"": 200}",4817,20260717,20261717 20261718,0.04091,0.00443,0.865,2
+10,e07e099266f8,gradient_boosting,standard,median,"{""learning_rate"": 0.02, ""max_depth"": 4, ""min_samples_leaf"": 1, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.06998,0.00856,1.903,2
+11,851e73c5c917,gradient_boosting,none,median,"{""learning_rate"": 0.02, ""max_depth"": 3, ""min_samples_leaf"": 2, ""n_estimators"": 200}",4817,20260717,20261717 20261718,0.05847,0.01006,1.111,2
+12,b3cd2407993b,gradient_boosting,none,mean,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 1, ""n_estimators"": 400}",4817,20260717,20261717 20261718,0.07286,0.00608,1.678,2
