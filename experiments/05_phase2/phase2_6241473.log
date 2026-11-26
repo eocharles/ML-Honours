@@ -1,0 +1,235 @@
+Node: fc30561
+CPU: Model name:                              AMD EPYC 9655 96-Core Processor
+Cores allocated: 1
+Started: Wed Nov 25 20:57:32 MST 2026
+Code commit: 6bb5a1e Add reusable model selection API and upgrade examples
+pool12 | breast_cancer | repeat 1 -> results/phase2/pool12/breast_cancer/rep1_20261125_205751_270618
+  selection random_forest     trees=200 SHAP=1.21s stability=1.62s
+  selection random_forest     trees=400 SHAP=2.17s stability=3.08s
+  selection random_forest     trees=600 SHAP=3.11s stability=4.06s
+  selection random_forest     trees=600 SHAP=3.10s stability=4.04s
+  selection random_forest     trees=400 SHAP=2.18s stability=2.94s
+  selection random_forest     trees=600 SHAP=3.11s stability=6.11s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.33s
+  selection gradient_boosting trees=400 SHAP=0.25s stability=1.01s
+  selection gradient_boosting trees=200 SHAP=0.21s stability=0.63s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.71s
+  selection gradient_boosting trees=200 SHAP=0.23s stability=2.12s
+  selection gradient_boosting trees=400 SHAP=0.26s stability=1.33s
+  final     random_forest     trees=400 SHAP=2.22s stability=2.92s
+  final     random_forest     trees=600 SHAP=3.24s stability=4.48s
+done
+pool12 | breast_cancer | repeat 2 -> results/phase2/pool12/breast_cancer/rep2_20261125_205849_120015
+  selection random_forest     trees=200 SHAP=1.26s stability=1.63s
+  selection random_forest     trees=400 SHAP=2.18s stability=3.01s
+  selection random_forest     trees=600 SHAP=3.08s stability=3.98s
+  selection random_forest     trees=600 SHAP=3.05s stability=4.01s
+  selection random_forest     trees=400 SHAP=2.17s stability=3.06s
+  selection random_forest     trees=600 SHAP=3.02s stability=3.94s
+  selection gradient_boosting trees=400 SHAP=0.26s stability=0.98s
+  selection gradient_boosting trees=400 SHAP=0.22s stability=1.06s
+  selection gradient_boosting trees=200 SHAP=0.23s stability=0.63s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.44s
+  selection gradient_boosting trees=200 SHAP=0.21s stability=0.71s
+  selection gradient_boosting trees=400 SHAP=0.23s stability=1.28s
+  final     random_forest     trees=400 SHAP=2.14s stability=2.79s
+  final     random_forest     trees=600 SHAP=3.01s stability=4.00s
+done
+pool12 | breast_cancer | repeat 3 -> results/phase2/pool12/breast_cancer/rep3_20261125_205943_931591
+  selection random_forest     trees=200 SHAP=1.17s stability=1.50s
+  selection random_forest     trees=400 SHAP=2.11s stability=2.76s
+  selection random_forest     trees=600 SHAP=2.97s stability=3.87s
+  selection random_forest     trees=600 SHAP=2.98s stability=3.86s
+  selection random_forest     trees=400 SHAP=2.07s stability=2.72s
+  selection random_forest     trees=600 SHAP=2.95s stability=4.26s
+  selection gradient_boosting trees=400 SHAP=0.23s stability=1.00s
+  selection gradient_boosting trees=400 SHAP=0.22s stability=1.80s
+  selection gradient_boosting trees=200 SHAP=0.21s stability=0.65s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.58s
+  selection gradient_boosting trees=200 SHAP=0.22s stability=0.78s
+  selection gradient_boosting trees=400 SHAP=0.23s stability=1.33s
+  final     random_forest     trees=400 SHAP=2.15s stability=2.85s
+  final     random_forest     trees=600 SHAP=2.99s stability=4.04s
+done
+pool12 | breast_cancer | repeat 4 -> results/phase2/pool12/breast_cancer/rep4_20261125_210034_813297
+  selection random_forest     trees=200 SHAP=1.20s stability=1.57s
+  selection random_forest     trees=400 SHAP=2.10s stability=2.85s
+  selection random_forest     trees=600 SHAP=3.00s stability=3.95s
+  selection random_forest     trees=600 SHAP=3.07s stability=4.26s
+  selection random_forest     trees=400 SHAP=2.09s stability=2.72s
+  selection random_forest     trees=600 SHAP=3.06s stability=4.10s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.00s
+  selection gradient_boosting trees=400 SHAP=0.24s stability=1.02s
+  selection gradient_boosting trees=200 SHAP=0.22s stability=0.66s
+  selection gradient_boosting trees=400 SHAP=0.25s stability=1.62s
+  selection gradient_boosting trees=200 SHAP=0.27s stability=0.86s
+  selection gradient_boosting trees=400 SHAP=0.23s stability=1.23s
+  final     random_forest     trees=400 SHAP=2.25s stability=4.32s
+  final     random_forest     trees=600 SHAP=3.10s stability=4.20s
+done
+pool12 | breast_cancer | repeat 5 -> results/phase2/pool12/breast_cancer/rep5_20261125_210134_083152
+  selection random_forest     trees=200 SHAP=1.23s stability=1.56s
+  selection random_forest     trees=400 SHAP=2.21s stability=2.93s
+  selection random_forest     trees=600 SHAP=3.17s stability=4.10s
+  selection random_forest     trees=600 SHAP=3.20s stability=4.29s
+  selection random_forest     trees=400 SHAP=2.22s stability=2.86s
+  selection random_forest     trees=600 SHAP=3.13s stability=4.11s
+  selection gradient_boosting trees=400 SHAP=0.25s stability=1.02s
+  selection gradient_boosting trees=400 SHAP=0.26s stability=1.08s
+  selection gradient_boosting trees=200 SHAP=0.24s stability=0.72s
+  selection gradient_boosting trees=400 SHAP=0.26s stability=1.58s
+  selection gradient_boosting trees=200 SHAP=0.23s stability=0.74s
+  selection gradient_boosting trees=400 SHAP=0.27s stability=1.33s
+  final     random_forest     trees=400 SHAP=2.27s stability=2.93s
+  final     random_forest     trees=600 SHAP=3.15s stability=4.12s
+done
+tree_sweep | breast_cancer | repeat 1 -> results/phase2/tree_sweep/breast_cancer/rep1_20261125_210221_116223
+  selection random_forest     trees=25 SHAP=0.37s stability=0.48s
+  selection random_forest     trees=50 SHAP=0.52s stability=3.02s
+  selection random_forest     trees=100 SHAP=0.76s stability=1.02s
+  selection random_forest     trees=200 SHAP=1.25s stability=1.61s
+  selection random_forest     trees=400 SHAP=2.20s stability=2.90s
+  selection random_forest     trees=600 SHAP=3.19s stability=5.63s
+  selection random_forest     trees=800 SHAP=4.04s stability=5.24s
+  final     random_forest     trees=800 SHAP=4.03s stability=5.32s
+  final     random_forest     trees=200 SHAP=1.25s stability=1.95s
+done
+tree_sweep | breast_cancer | repeat 2 -> results/phase2/tree_sweep/breast_cancer/rep2_20261125_210305_903879
+  selection random_forest     trees=25 SHAP=0.40s stability=0.49s
+  selection random_forest     trees=50 SHAP=0.53s stability=0.67s
+  selection random_forest     trees=100 SHAP=0.79s stability=1.05s
+  selection random_forest     trees=200 SHAP=1.25s stability=1.63s
+  selection random_forest     trees=400 SHAP=2.22s stability=2.91s
+  selection random_forest     trees=600 SHAP=3.22s stability=5.31s
+  selection random_forest     trees=800 SHAP=4.12s stability=5.65s
+  final     random_forest     trees=800 SHAP=4.12s stability=5.87s
+  final     random_forest     trees=200 SHAP=1.29s stability=1.75s
+done
+tree_sweep | breast_cancer | repeat 3 -> results/phase2/tree_sweep/breast_cancer/rep3_20261125_210341_275506
+  selection random_forest     trees=25 SHAP=0.37s stability=0.46s
+  selection random_forest     trees=50 SHAP=0.51s stability=0.85s
+  selection random_forest     trees=100 SHAP=0.80s stability=1.05s
+  selection random_forest     trees=200 SHAP=1.24s stability=1.63s
+  selection random_forest     trees=400 SHAP=2.19s stability=2.86s
+  selection random_forest     trees=600 SHAP=3.16s stability=4.10s
+  selection random_forest     trees=800 SHAP=4.03s stability=5.25s
+  final     random_forest     trees=800 SHAP=4.04s stability=5.38s
+  final     random_forest     trees=200 SHAP=1.25s stability=1.72s
+done
+pool12 | spambase | repeat 1 -> results/phase2/pool12/spambase/rep1_20261125_210420_337028
+  selection random_forest     trees=200 SHAP=2.38s stability=2.85s
+  selection random_forest     trees=400 SHAP=4.28s stability=5.50s
+  selection random_forest     trees=600 SHAP=6.07s stability=7.82s
+  selection random_forest     trees=600 SHAP=5.99s stability=7.46s
+  selection random_forest     trees=400 SHAP=4.19s stability=5.40s
+  selection random_forest     trees=600 SHAP=6.06s stability=7.82s
+  selection gradient_boosting trees=400 SHAP=0.53s stability=3.07s
+  selection gradient_boosting trees=400 SHAP=0.55s stability=3.13s
+  selection gradient_boosting trees=200 SHAP=0.57s stability=1.99s
+  selection gradient_boosting trees=400 SHAP=0.56s stability=5.26s
+  selection gradient_boosting trees=200 SHAP=0.58s stability=2.43s
+  selection gradient_boosting trees=400 SHAP=0.50s stability=4.06s
+  final     random_forest     trees=400 SHAP=4.25s stability=5.66s
+  final     gradient_boosting trees=400 SHAP=0.58s stability=3.62s
+done
+pool12 | spambase | repeat 2 -> results/phase2/pool12/spambase/rep2_20261125_210556_266413
+  selection random_forest     trees=200 SHAP=2.43s stability=2.99s
+  selection random_forest     trees=400 SHAP=4.29s stability=6.62s
+  selection random_forest     trees=600 SHAP=6.02s stability=7.95s
+  selection random_forest     trees=600 SHAP=5.98s stability=7.52s
+  selection random_forest     trees=400 SHAP=4.22s stability=5.49s
+  selection random_forest     trees=600 SHAP=6.05s stability=7.79s
+  selection gradient_boosting trees=400 SHAP=0.51s stability=3.01s
+  selection gradient_boosting trees=400 SHAP=0.50s stability=3.06s
+  selection gradient_boosting trees=200 SHAP=0.58s stability=1.90s
+  selection gradient_boosting trees=400 SHAP=0.57s stability=5.28s
+  selection gradient_boosting trees=200 SHAP=0.57s stability=2.58s
+  selection gradient_boosting trees=400 SHAP=0.50s stability=4.02s
+  final     random_forest     trees=400 SHAP=4.22s stability=5.56s
+  final     gradient_boosting trees=400 SHAP=0.55s stability=4.01s
+done
+pool12 | spambase | repeat 3 -> results/phase2/pool12/spambase/rep3_20261125_210740_051285
+  selection random_forest     trees=200 SHAP=2.39s stability=2.99s
+  selection random_forest     trees=400 SHAP=4.33s stability=5.56s
+  selection random_forest     trees=600 SHAP=5.94s stability=7.64s
+  selection random_forest     trees=600 SHAP=5.94s stability=7.40s
+  selection random_forest     trees=400 SHAP=4.21s stability=5.85s
+  selection random_forest     trees=600 SHAP=5.98s stability=7.74s
+  selection gradient_boosting trees=400 SHAP=0.53s stability=3.06s
+  selection gradient_boosting trees=400 SHAP=0.50s stability=4.00s
+  selection gradient_boosting trees=200 SHAP=0.55s stability=1.81s
+  selection gradient_boosting trees=400 SHAP=0.60s stability=5.40s
+  selection gradient_boosting trees=200 SHAP=0.58s stability=2.38s
+  selection gradient_boosting trees=400 SHAP=0.48s stability=4.19s
+  final     random_forest     trees=400 SHAP=4.17s stability=5.65s
+  final     gradient_boosting trees=400 SHAP=0.60s stability=3.96s
+done
+pool12 | spambase | repeat 4 -> results/phase2/pool12/spambase/rep4_20261125_210921_710901
+  selection random_forest     trees=200 SHAP=2.38s stability=2.85s
+  selection random_forest     trees=400 SHAP=4.36s stability=5.63s
+  selection random_forest     trees=600 SHAP=6.18s stability=7.95s
+  selection random_forest     trees=600 SHAP=6.13s stability=7.66s
+  selection random_forest     trees=400 SHAP=4.32s stability=5.59s
+  selection random_forest     trees=600 SHAP=6.14s stability=7.98s
+  selection gradient_boosting trees=400 SHAP=0.56s stability=3.33s
+  selection gradient_boosting trees=400 SHAP=0.49s stability=3.16s
+  selection gradient_boosting trees=200 SHAP=0.54s stability=1.86s
+  selection gradient_boosting trees=400 SHAP=0.59s stability=5.28s
+  selection gradient_boosting trees=200 SHAP=0.55s stability=2.39s
+  selection gradient_boosting trees=400 SHAP=0.53s stability=4.10s
+  final     random_forest     trees=400 SHAP=4.27s stability=6.00s
+  final     gradient_boosting trees=400 SHAP=0.53s stability=3.59s
+done
+pool12 | spambase | repeat 5 -> results/phase2/pool12/spambase/rep5_20261125_211102_035702
+  selection random_forest     trees=200 SHAP=2.35s stability=2.82s
+  selection random_forest     trees=400 SHAP=4.30s stability=5.51s
+  selection random_forest     trees=600 SHAP=6.08s stability=7.81s
+  selection random_forest     trees=600 SHAP=6.00s stability=7.50s
+  selection random_forest     trees=400 SHAP=4.19s stability=5.58s
+  selection random_forest     trees=600 SHAP=5.98s stability=7.72s
+  selection gradient_boosting trees=400 SHAP=0.62s stability=4.13s
+  selection gradient_boosting trees=400 SHAP=0.52s stability=3.01s
+  selection gradient_boosting trees=200 SHAP=0.50s stability=1.87s
+  selection gradient_boosting trees=400 SHAP=0.61s stability=5.33s
+  selection gradient_boosting trees=200 SHAP=0.53s stability=2.45s
+  selection gradient_boosting trees=400 SHAP=0.59s stability=4.23s
+  final     random_forest     trees=400 SHAP=4.28s stability=5.70s
+  final     gradient_boosting trees=400 SHAP=0.47s stability=3.55s
+done
+tree_sweep | spambase | repeat 1 -> results/phase2/tree_sweep/spambase/rep1_20261125_211237_826536
+  selection random_forest     trees=25 SHAP=0.79s stability=1.02s
+  selection random_forest     trees=50 SHAP=1.09s stability=1.37s
+  selection random_forest     trees=100 SHAP=1.52s stability=2.02s
+  selection random_forest     trees=200 SHAP=2.46s stability=3.28s
+  selection random_forest     trees=400 SHAP=4.32s stability=5.65s
+  selection random_forest     trees=600 SHAP=6.05s stability=8.23s
+  selection random_forest     trees=800 SHAP=7.91s stability=10.92s
+  final     random_forest     trees=600 SHAP=6.01s stability=8.14s
+  final     random_forest     trees=400 SHAP=4.25s stability=7.45s
+  final     random_forest     trees=800 SHAP=7.81s stability=10.87s
+done
+tree_sweep | spambase | repeat 2 -> results/phase2/tree_sweep/spambase/rep2_20261125_211355_126385
+  selection random_forest     trees=25 SHAP=0.74s stability=0.93s
+  selection random_forest     trees=50 SHAP=1.06s stability=1.33s
+  selection random_forest     trees=100 SHAP=1.47s stability=1.96s
+  selection random_forest     trees=200 SHAP=2.45s stability=3.54s
+  selection random_forest     trees=400 SHAP=4.26s stability=5.54s
+  selection random_forest     trees=600 SHAP=6.02s stability=8.06s
+  selection random_forest     trees=800 SHAP=7.85s stability=10.39s
+  final     random_forest     trees=600 SHAP=5.98s stability=8.22s
+  final     random_forest     trees=400 SHAP=4.30s stability=5.83s
+  final     random_forest     trees=800 SHAP=7.82s stability=10.83s
+done
+tree_sweep | spambase | repeat 3 -> results/phase2/tree_sweep/spambase/rep3_20261125_211507_141678
+  selection random_forest     trees=25 SHAP=0.77s stability=0.95s
+  selection random_forest     trees=50 SHAP=1.07s stability=1.30s
+  selection random_forest     trees=100 SHAP=1.53s stability=1.95s
+  selection random_forest     trees=200 SHAP=2.24s stability=3.48s
+  selection random_forest     trees=400 SHAP=3.92s stability=5.21s
+  selection random_forest     trees=600 SHAP=5.67s stability=7.59s
+  selection random_forest     trees=800 SHAP=7.39s stability=10.40s
+  final     random_forest     trees=600 SHAP=5.58s stability=7.66s
+  final     random_forest     trees=400 SHAP=3.95s stability=5.42s
+  final     random_forest     trees=800 SHAP=7.49s stability=10.30s
+done
+Finished: Wed Nov 25 21:16:16 MST 2026

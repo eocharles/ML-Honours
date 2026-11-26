@@ -1,0 +1,15 @@
+dataset,n_estimators,repeats,shap_median_s,shap_min_s,shap_max_s
+breast_cancer,25,3,0.375,0.372,0.396
+breast_cancer,50,3,0.52,0.51,0.53
+breast_cancer,100,3,0.785,0.757,0.797
+breast_cancer,200,3,1.249,1.243,1.251
+breast_cancer,400,3,2.205,2.187,2.219
+breast_cancer,600,3,3.189,3.158,3.22
+breast_cancer,800,3,4.038,4.035,4.116
+spambase,25,3,0.774,0.74,0.794
+spambase,50,3,1.069,1.059,1.091
+spambase,100,3,1.522,1.474,1.53
+spambase,200,3,2.454,2.239,2.455
+spambase,400,3,4.261,3.925,4.321
+spambase,600,3,6.017,5.675,6.048
+spambase,800,3,7.85,7.387,7.912

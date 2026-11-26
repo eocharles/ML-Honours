@@ -1,0 +1,12 @@
+All values are seconds: median [min-max] over every candidate and repeat in the group.
+stability_total = stability refits + SHAP + comparison (plus small overhead). Columns are nested; do not add them.
+
+| dataset | phase | family | n_measurements | risk_fit (median [min-max] s) | stability_fit (median [min-max] s) | shap (median [min-max] s) | comparison (median [min-max] s) | stability_total (median [min-max] s) | candidate_total (median [min-max] s) |
+|---|---|---|---|---|---|---|---|---|---|
+| breast_cancer | selection | gradient_boosting | 30 | 0.436 [0.230-0.648] | 0.658 [0.322-1.189] | 0.238 [0.206-0.273] | 0.001 [0.001-0.013] | 1.044 [0.628-2.122] | 1.927 [1.027-5.439] |
+| breast_cancer | selection | random_forest | 30 | 0.717 [0.263-0.822] | 0.717 [0.280-0.898] | 2.583 [1.170-3.199] | 0.001 [0.001-0.042] | 3.469 [1.498-6.107] | 4.532 [2.126-11.823] |
+| breast_cancer | final | random_forest | 10 | 0.407 [0.315-0.507] | 0.757 [0.582-0.945] | 2.627 [2.144-3.239] | 0.001 [0.001-0.001] | 4.019 [2.794-4.482] | 4.845 [3.242-5.601] |
+| spambase | selection | gradient_boosting | 30 | 1.585 [0.788-3.018] | 2.437 [1.214-4.659] | 0.550 [0.475-0.615] | 0.001 [0.001-0.001] | 3.100 [1.810-5.400] | 6.037 [2.815-12.422] |
+| spambase | selection | random_forest | 30 | 1.013 [0.353-1.296] | 1.284 [0.416-1.718] | 5.150 [2.351-6.178] | 0.001 [0.001-0.001] | 7.007 [2.824-7.980] | 8.368 [3.382-12.342] |
+| spambase | final | gradient_boosting | 5 | 1.813 [1.793-1.831] | 2.929 [2.903-3.000] | 0.546 [0.472-0.605] | 0.001 [0.001-0.001] | 3.624 [3.545-4.007] | 5.596 [5.508-6.740] |
+| spambase | final | random_forest | 5 | 0.788 [0.748-0.804] | 1.334 [1.312-1.349] | 4.247 [4.170-4.283] | 0.001 [0.001-0.001] | 5.660 [5.564-5.996] | 6.925 [6.569-8.120] |

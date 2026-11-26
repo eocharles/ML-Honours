@@ -1,0 +1,11 @@
+{
+  "classes": [
+    "0",
+    "1"
+  ],
+  "dataset": "breast_cancer",
+  "n_features": 30,
+  "n_rows": 569,
+  "source": "sklearn",
+  "staged_sha256": "3e1e6044b2cde908ed39dd9c651fcc1f3fb40250ab018fe6a3a35e3f5b6660d5"
+}

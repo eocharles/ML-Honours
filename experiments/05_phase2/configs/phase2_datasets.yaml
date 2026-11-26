@@ -1,0 +1,11 @@
+# Datasets for Phase 2. Both are binary classification.
+datasets:
+  - name: breast_cancer
+    source: sklearn
+    dataset: breast_cancer
+    task: classification
+
+  - name: spambase          # OpenML dataset 44: 4601 rows, 57 features
+    source: openml
+    data_id: 44
+    task: classification

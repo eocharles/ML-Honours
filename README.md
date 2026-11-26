@@ -14,7 +14,7 @@ The experiments reuse the model, SHAP, stability and selection code from the sup
 | Phase | Goal | Status | Evidence |
 |---|---|---|---|
 | 1 | Simple candidate-search baseline: define what is optimized and what a candidate contains; reproducible candidate stream | Complete, needs supervisor review | [`phase1/`](phase1) (dataset note, protocol, candidate table), `experiments/01_smoke_test`, `experiments/02_tolerance`, candidate pool and reproducibility check in `experiments/03_timing_pilot` |
-| 2 | Define one complete explanation evaluation and measure its real cost | In progress | `experiments/03_timing_pilot` (laptop), `experiments/04_fir_timing` (Fir) |
+| 2 | Define one complete explanation evaluation and measure its real cost | In progress | `experiments/03_timing_pilot` (laptop), `experiments/04_fir_timing` (Fir), `experiments/05_phase2` (timing breakdown, tree sweep, cost vs selection on 2 datasets) |
 | 3-7 | Allocation strategies, full audit, stress tests, thesis | Not started | |
 
 ### Phase 1 evidence
@@ -26,6 +26,7 @@ The experiments reuse the model, SHAP, stability and selection code from the sup
 
 ### Phase 2 evidence
 - **[03_timing_pilot](experiments/03_timing_pilot)**: timing of each part of an explanation evaluation (retraining, SHAP, comparison) for RF and GB on breast_cancer. Includes scripts, config, results, report and a README explaining every column.
+- **[05_phase2](experiments/05_phase2)**: Dania's three Phase 2 requests on Fir, breast_cancer and spambase: timing breakdown with medians and ranges, SHAP time vs number of trees, and Brier loss vs disagreement with stability cost and selected models.
 - **[04_fir_timing](experiments/04_fir_timing)**: the same timing runs on the Fir cluster (1 core, AMD EPYC 9655), with a laptop vs Fir comparison.
 
 ## Notes

@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "0",
+    "1"
+  ],
+  "data_id": 44,
+  "n_features": 57,
+  "n_rows": 4601,
+  "source": "openml",
+  "staged_sha256": "342e87caf90c180016a7bf06769db86481c2a48cc84d47b4b2155ca0879fd37f",
+  "version": null
+}
