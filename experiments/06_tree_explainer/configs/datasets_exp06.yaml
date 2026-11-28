@@ -1,0 +1,16 @@
+# Datasets for experiment 06 (all binary classification)
+datasets:
+  - name: breast_cancer        # 569 rows, 30 features
+    source: sklearn
+    dataset: breast_cancer
+    task: classification
+
+  - name: spambase             # OpenML dataset 44: 4601 rows, 57 features
+    source: openml
+    data_id: 44
+    task: classification
+
+  - name: riccardo             # OpenML task 168338 (same entry as the supervisors' paper benchmark)
+    source: openml_task
+    task_id: 168338
+    task: classification

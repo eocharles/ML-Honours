@@ -1,0 +1,100 @@
+[
+  {
+    "candidate_id": "2b0fd3560b96",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 25
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "29037672255c",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 50
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "56cf120c0d4c",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 100
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "fecd5335f9ce",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 200
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "269759fcd1ac",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 400
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "1b83950a73b0",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 600
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "839efa5ed17b",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 800
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  }
+]

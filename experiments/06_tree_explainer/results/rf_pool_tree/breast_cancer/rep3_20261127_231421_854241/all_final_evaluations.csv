@@ -1,0 +1,4 @@
+dataset,task,outer_fold,selector,candidate_id,risk_threshold,eligible_candidates,outer_test_loss,magnitude_disagreement,rank_agreement,top_k_agreement,raw_mean_standard_deviation,mean_total_attribution,perturbations,family
+breast_cancer,classification,0,risk_only,99c56a33fdd7,0.04062521590203385,6,0.03252662280701755,0.11108941398668615,0.8901001112347052,1.0,0.0018814979748716118,0.48619455956168167,2,random_forest
+breast_cancer,classification,0,stable_5pct,df617ef7fa25,0.04265647669713554,2,0.03389691377233686,0.12382219610726053,0.9007786429365963,1.0,0.0021173182184232547,0.4757421133049604,2,random_forest
+breast_cancer,classification,0,knee,df617ef7fa25,0.0409874382876665,3,0.03389691377233686,0.12382219610726053,0.9007786429365963,1.0,0.0021173182184232547,0.4757421133049604,2,random_forest

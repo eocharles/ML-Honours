@@ -1,0 +1,4 @@
+dataset,task,outer_fold,selector,candidate_id,risk_threshold,eligible_candidates,outer_test_loss,magnitude_disagreement,rank_agreement,top_k_agreement,raw_mean_standard_deviation,mean_total_attribution,perturbations,family
+spambase,classification,0,risk_only,99c56a33fdd7,0.05081241733681201,6,0.05170484269048892,0.0688974390128993,0.9959073251942285,0.5,0.0006712884372373681,0.5535609395060412,2,random_forest
+spambase,classification,0,stable_5pct,99c56a33fdd7,0.05335303820365261,1,0.05170484269048892,0.0688974390128993,0.9959073251942285,0.5,0.0006712884372373681,0.5535609395060412,2,random_forest
+spambase,classification,0,knee,99c56a33fdd7,0.05081241733681201,2,0.05170484269048892,0.0688974390128993,0.9959073251942285,0.5,0.0006712884372373681,0.5535609395060412,2,random_forest

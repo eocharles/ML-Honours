@@ -1,6 +1,6 @@
 # Experiment 05: Phase 2 cost of an explanation evaluation (Fir)
 
-Answers the three Phase 2 requests from Dania (Nov 2026): a timing breakdown, SHAP time vs number of trees, and cost vs the selection decision, on `breast_cancer` and a second classification dataset with about twice as many features.
+This experiment answers the three Phase 2 requests Dania sent me in November 2026: a timing breakdown, SHAP time vs number of trees, and cost vs the selection decision. I ran them on `breast_cancer` and on spambase, a second classification dataset with about twice as many features. I wrote the scripts with help from an AI assistant (Claude) and ran everything myself on Fir.
 
 All times are **seconds of compute time**, not SHAP values. Stability is `magnitude_disagreement` (lower is more stable).
 
@@ -17,10 +17,10 @@ All times are **seconds of compute time**, not SHAP values. Stability is `magnit
 
 Files: `configs/` (dataset registry, pool config), `scripts/phase2_timing.py` (one run), `scripts/phase2_job.sh` (the Slurm job), `scripts/analyze_phase2.py` (table and plots), `results/` (raw outputs of every run, including candidate pools and configs, so the streams can be replayed), `analysis/` (generated tables and plots), `phase2_6241473.log`.
 
-To regenerate the analysis: `python scripts/analyze_phase2.py results analysis` (needs matplotlib).
+To regenerate my analysis: `python scripts/analyze_phase2.py results analysis` (needs matplotlib).
 
 ## Reproducibility
-Scores (`candidate_evaluations.csv`) were identical across all repeats for both datasets and both experiments (`analysis/reproducibility.csv`). Only the timings vary between repeats.
+The scores (`candidate_evaluations.csv`) I got were identical across all repeats for both datasets and both experiments (`analysis/reproducibility.csv`). Only the timings vary between repeats.
 
 ## 1. Timing breakdown
 Full table: [`analysis/timing_breakdown.md`](analysis/timing_breakdown.md). Selection stage, median over all candidates of a family and all 5 repeats:
@@ -51,9 +51,9 @@ Full table: [`analysis/timing_breakdown.md`](analysis/timing_breakdown.md). Sele
 - **spambase: both rules pick the same candidate**, GB `bcffaa662a54` (Brier 0.03945, disagreement 0.309, 3.1 s). The 5% threshold was 0.0414 and no other candidate was within it. The more stable candidates were RF (disagreement 0.21-0.28) but had at least 29% higher loss, so stability could not change the choice. On this dataset, the stability evaluations of all other candidates did not affect the decision.
 - The most expensive stability checks (RF with 600 trees, about 7.5-7.8 s on spambase) were for candidates that were never close to being selected. This is the cost that a budget-allocation strategy could avoid.
 
-## Limitations
+## Limitations of what I did
 - One outer fold and smoke-level explanation settings; absolute times will be larger with more refits, rows or permutations.
 - The two datasets differ in rows as well as features, so differences cannot be attributed to feature count alone.
-- The tree sweep covers RF only, at one depth.
+- My tree sweep covers RF only, at one depth.
 - The 12-candidate pool lists all RF before GB; it is a fixed pool, not an interleaved search.
-- The timing scripts were written with ChatGPT's help and reuse the supervisors' functions; call counts and identical scores are checks, not a dedicated test.
+- My timing scripts reuse the supervisors' functions; the call counts and identical scores are checks, not a dedicated test.

@@ -1,0 +1,20 @@
+[
+  {
+    "candidate_id": "99c56a33fdd7",
+    "eligible_candidates": 6,
+    "risk_threshold": 0.04062521590203385,
+    "selector": "risk_only"
+  },
+  {
+    "candidate_id": "df617ef7fa25",
+    "eligible_candidates": 2,
+    "risk_threshold": 0.04265647669713554,
+    "selector": "stable_5pct"
+  },
+  {
+    "candidate_id": "df617ef7fa25",
+    "eligible_candidates": 4,
+    "risk_threshold": 0.0409874382876665,
+    "selector": "knee"
+  }
+]

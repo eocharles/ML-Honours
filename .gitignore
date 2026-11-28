@@ -1,2 +1,5 @@
 __pycache__/
 experiments/05_phase2/_test_plots/
+experiments/06_tree_explainer/configs/_unused_pool12.yaml
+experiments/06_tree_explainer/configs/phase2_datasets.yaml
+experiments/06_tree_explainer/scripts/__pycache__/

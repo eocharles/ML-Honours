@@ -1,0 +1,2 @@
+dataset,experiment,explainer,repeat,phase,candidate_id,family,n_estimators,max_depth,status,stability_vectors_seconds,risk_fit_seconds,risk_fit_calls,stability_fit_seconds,stability_fit_calls,shap_seconds,shap_calls,comparison_seconds,comparison_calls,candidate_total_seconds,stability_total_seconds
+riccardo,rf_pool_permutation,permutation,1,selection,588f99a921dd,random_forest,200,4,ok,4105.076192834997,10.7617494269507,2,17.00023482600227,2,4086.893772267853,2,0.509826994035393,1,4119.336413222016,4105.586019829032

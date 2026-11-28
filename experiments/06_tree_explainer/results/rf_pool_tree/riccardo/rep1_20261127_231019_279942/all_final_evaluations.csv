@@ -1,0 +1,4 @@
+dataset,task,outer_fold,selector,candidate_id,risk_threshold,eligible_candidates,outer_test_loss,magnitude_disagreement,rank_agreement,top_k_agreement,raw_mean_standard_deviation,mean_total_attribution,perturbations,family
+riccardo,classification,0,risk_only,99c56a33fdd7,0.07185291329266463,6,0.05545842766544082,0.3606130742804659,0.40396966105360504,0.2,4.0186113900860956e-05,0.4783987265887,2,random_forest
+riccardo,classification,0,stable_5pct,d35d29df0546,0.07544555895729786,2,0.04526565102332576,0.2868135053813826,0.4937028303069399,0.5,3.244514860084447e-05,0.4847038168396926,2,random_forest
+riccardo,classification,0,knee,d35d29df0546,0.07413294422853609,3,0.04526565102332576,0.2868135053813826,0.4937028303069399,0.5,3.244514860084447e-05,0.4847038168396926,2,random_forest

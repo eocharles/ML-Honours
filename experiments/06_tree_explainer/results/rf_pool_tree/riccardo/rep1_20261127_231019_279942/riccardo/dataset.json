@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "0",
+    "1"
+  ],
+  "data_id": 41161,
+  "n_features": 4296,
+  "n_rows": 20000,
+  "source": "openml_task",
+  "staged_sha256": "86088d76fb90d7ed62ca009b517cede9a3d3fd53fcc85debbd808e7b43e1b3e1",
+  "target": "class",
+  "task_id": 168338,
+  "version": null
+}

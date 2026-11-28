@@ -1,0 +1,44 @@
+[
+  {
+    "candidate_id": "2b0fd3560b96",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 25
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "56cf120c0d4c",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 100
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  },
+  {
+    "candidate_id": "269759fcd1ac",
+    "family": "random_forest",
+    "model": {
+      "max_depth": 8,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 400
+    },
+    "preprocessing": {
+      "numeric_imputer": "median",
+      "scaler": "standard"
+    }
+  }
+]

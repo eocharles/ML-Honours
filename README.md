@@ -26,6 +26,7 @@ The experiments reuse the model, SHAP, stability and selection code from the sup
 
 ### Phase 2 evidence
 - **[03_timing_pilot](experiments/03_timing_pilot)**: timing of each part of an explanation evaluation (retraining, SHAP, comparison) for RF and GB on breast_cancer. Includes scripts, config, results, report and a README explaining every column.
+- **[06_tree_explainer](experiments/06_tree_explainer)**: permutation SHAP vs TreeExplainer on the same random forests (breast_cancer, spambase, riccardo): SHAP time, stability time, ranking and selection. riccardo permutation runs in progress.
 - **[05_phase2](experiments/05_phase2)**: Dania's three Phase 2 requests on Fir, breast_cancer and spambase: timing breakdown with medians and ranges, SHAP time vs number of trees, and Brier loss vs disagreement with stability cost and selected models.
 - **[04_fir_timing](experiments/04_fir_timing)**: the same timing runs on the Fir cluster (1 core, AMD EPYC 9655), with a laptop vs Fir comparison.
 
